@@ -13,11 +13,11 @@ CLASSES=['Car', 'Van', 'Truck']
 DEBUG=False
 
 python kitti_2_3Dpoints.py \
-	--image_dir=IMAGE_DIR \
-	--box2d_path=BOX2D_PATH \
-	--calib_dir=CALIB_DIR \
-	--out_path=OUT_PATH \
-	--classes=CLASSES \
-	--debug=DEBUG
+	--image_dir=${IMAGE_DIR} \
+	--box2d_path=${BOX2D_PATH} \
+	--calib_dir=${CALIB_DIR} \
+	--out_path=${OUT_PATH} \
+	--classes=${CLASSES} \
+	--debug=${DEBUG}
 ```
 
