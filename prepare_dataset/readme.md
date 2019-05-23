@@ -1,8 +1,11 @@
-## 转换kitti数据集标签
+# 准备数据集，用于3D点回归
+基于kitti数据集转换
+## kitti_2_3Dpoints.py
+处理kitti的图片与标签，所有图片统一尺寸至(352, 1216, 3), 并且生成如下格式的标签
 
-转换label，用于3D车辆检测
+![fix_kitti_img](../img/carbon.png)
 
-标签的输出格式为：`xmin, ymin, max(w , h), (fblx, fbly, fbrx, fbry, rblx, rbly, ftly)/max(w , h)`
+![fix_kitti_img](../img/fix_kitti_image.png)
 
 ```bash
 IMAGE_DIR="../kitti/training/image_2/"
