@@ -3,7 +3,7 @@
 ## kitti_2_3Dpoints.py
 处理kitti的图片与标签，所有图片统一尺寸至(352, 1216, 3), 并且生成如下格式的标签
 
-![fix_kitti_img](../img/carbon.png)
+![fix_kitti_label](../img/fix_kitti_label)
 
 ![fix_kitti_img](../img/fix_kitti_image.png)
 
